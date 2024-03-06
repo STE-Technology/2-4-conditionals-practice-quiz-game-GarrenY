@@ -59,7 +59,7 @@ else:
 print("\nQuiz complete!")
 
 #turning score into percent
-total_percent = total_score * 33.34
+total_percent = total_score / 3 * 100
 
 #output score and percent to user
 print("You answered " + str(total_score) + " out of 3 questions correctly. Your score is " + str(round(total_percent, 1)) + "%")
